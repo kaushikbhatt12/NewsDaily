@@ -1,0 +1,117 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background-color: azure;
+    background: rgba(0,0,0,0.7) url('sportsb.jpg');
+    background-size: cover;
+    background-blend-mode:darken;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    /* width: 100%; */
+    margin: auto;
+    padding: 20px;
+    background-color: black;
+    
+    /* position: fixed; */
+}
+
+.container h2{
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+}
+#demo{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    font-size: 16px;
+}
+/* .container h2 :hover{
+    color: rgb(150, 115, 63);
+    transform: scale(1.2);
+} */
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 320px;
+    padding: 20px;
+    /* background-color:azure; */
+    
+}
+.content2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 320px;
+    padding: 20px;
+    /* background-color:azure; */
+}
+.box{
+    /* margin: 100px; */
+    margin: auto;
+    height: 300px;
+    /* height: 40%; */
+    width: 300px;
+    /* width: 40%; */
+    
+}
+/* .box2{
+    margin: 100px;
+    height: 325px;
+    width: 310px;
+}
+.box3{
+    margin: 100px;
+    height: 325px;
+    width: 310px;
+} */
+
+.img{
+    height: 270px;
+    width: 270px;
+    /* width: 100%; */  
+    border-radius: 16px;
+    border: 1px solid black;
+}
+/* .img2{
+    height: 300px;
+    width: 300px;
+    border-radius: 16px;
+    border: 1px solid black;
+}
+.img3{
+    height: 300px;
+    width: 300px;
+    border-radius: 16px;
+    border: 1px solid black;
+} */
+.box :hover{
+    transform: scale(1.1);
+}
+/* .box2 :hover{
+    transform: scale(1.1);
+}
+
+.box3 :hover{
+    transform: scale(1.1);
+} */
+#footer{
+    display: flex;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 16px;
+    
+}
+
