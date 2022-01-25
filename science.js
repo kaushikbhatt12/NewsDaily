@@ -8,8 +8,8 @@ let apiKey = '5af1b1917bdb4477a22fb76402546025';
 let space = document.getElementById('demo');
 // create an ajax get request
 const xhr = new XMLHttpRequest();
-xhr.open('GET', `https://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=5af1b1917bdb4477a22fb76402546025`, true);
-
+// xhr.open('GET', `https://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=5af1b1917bdb4477a22fb76402546025`, true);
+xhr.open('GET', `https://saurav.tech/NewsAPI/top-headlines/category/science/in.json`, true);
 //what to do when response is ready
 xhr.onload = function () {
   if (this.status === 200) {
